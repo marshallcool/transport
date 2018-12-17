@@ -1,0 +1,50 @@
+@import "variable";
+.ourService-wrap-head__img {
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    width: 353px;
+    transform: translateY(115px);
+  }
+}
+
+.ourService {
+  background-image: url(http://cargo.bold-themes.com/transport-company/wp-content/uploads/sites/2/2015/09/Transparent-background-with-dots.png);
+  padding-bottom: 80px;
+  padding-top: 80px;
+  background-size: cover;
+}
+
+.ourService-wrap {
+  display: flex;
+}
+
+.ourService-wrap-list-item {
+  background-color: #fff;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25), 0 -1px 1px rgba(0, 0, 0, 0.125);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25), 0 -1px 1px rgba(0, 0, 0, 0.125);
+  padding: 20px 10px 20px 10px;
+  max-width: 46%;
+  border-radius: 2px;
+  flex: 1 1 32%;
+  display: flex;
+  i {
+    color: $dark-blue;
+    font-size: 32px;
+    width: 52px;
+  }
+}
+
+.ourService-wrap-list-item-content__title {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  text-transform: none;
+  text-transform: uppercase;
+}
+
+.ourService-wrap-list-item-content__text {
+  font-size: 13px;
+  font-weight: 300;
+}

@@ -1,0 +1,109 @@
+.footer {
+  background: #183650;
+  padding: 68px 0 0;
+  .desc {
+    margin: 0 0 40px;
+  }
+  .signup {
+    margin-bottom: 28px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  .logo {
+    display: block;
+    height: 39px;
+    width: auto;
+    margin: -9px 0 27px;
+  }
+  .text--trans {
+    color: #fff;
+    opacity: .7;
+    font-size: 14px;
+  }
+  .footer-item {
+    flex: 1 1 33%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .footer-list {
+    display: flex;
+  }
+  .link {
+    &:hover {
+      opacity: 1;
+      -webkit-transition: all 0.3s ease;
+      -moz-transition: all 0.3s ease;
+      -ms-transition: all 0.3s ease;
+      -o-transition: all 0.3s ease;
+      transition: all 0.3s ease;
+      text-decoration: none !important;
+    }
+  }
+  .title {
+    font-weight: 600;
+    margin: 0 0 27px;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+  li {
+    margin: 0 0 10px;
+  }
+  .fas {
+    margin-right: 19px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+  }
+  .touch-item {
+    display: flex;
+    align-items: baseline;
+    margin: 0 0 19px;
+  }
+  .news {
+    display: flex;
+    align-items: flex-start;
+    .icon {
+      margin-right: 15px;
+      color: rgba(255, 255, 255, 0.5);
+      font-size: 16px;
+    }
+    .content {
+      a {
+        color: #34ccff;
+      }
+    }
+  }
+  .social-icons {
+    display: block;
+    width: 32px;
+    height: 32px;
+    -webkit-border-radius: 32px;
+    -moz-border-radius: 32px;
+    -ms-border-radius: 32px;
+    border-radius: 32px;
+    background: rgba(255, 255, 255, 0.25);
+    text-align: center;
+    line-height: 32px;
+    color: #183650;
+    font-size: 17px;
+    text-decoration: none !important;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+  .copyright {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #4d687e;
+    padding: 15px 5px 15px 5px;
+  }
+  .copyright-social-list {
+    display: flex;
+    justify-content: space-between;
+  }
+  .copyright-social {
+    max-width: 150px;
+    width: 100%;
+  }
+}

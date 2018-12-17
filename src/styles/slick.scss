@@ -1,0 +1,123 @@
+
+.main {
+  font-family: Arial;
+  display: block;
+  margin: 0 auto;
+}
+
+h3 {
+  background: #fff;
+  color: #3498db;
+  font-size: 36px;
+  line-height: 100px;
+  margin: 0;
+  padding: 2%;
+  position: relative;
+  text-align: center;
+}
+
+.action {
+  display: block;
+  margin: 100px auto;
+  width: 100%;
+  text-align: center;
+}
+
+.action a {
+  display: inline-block;
+  padding: 5px 10px;
+  background: #f30;
+  color: #fff;
+  text-decoration: none;
+}
+
+.action a:hover {
+  background: #000;
+}
+
+.slick-slide:nth-child(n+1) {
+  display: none;
+}
+
+.slick-slide:first-child {
+  display: block !important;
+}
+
+.slick-initialized .slick-slide {
+  display: block !important;
+}
+
+.slick-slider .slick-disabled {
+  display: none !important;
+}
+
+.slick-dots li button {
+  font-size: 0;
+  line-height: 0;
+  display: block;
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+  cursor: pointer;
+  color: transparent;
+  border: 0;
+  outline: 0;
+  background: 0 0;
+  display: block;
+  text-indent: -9990px;
+  width: 100%;
+  height: 10px;
+  border: 0;
+  border-top: 1px solid;
+  border-color: rgba(255,255,255,.5);
+  background: transparent;
+  cursor: pointer;
+  -webkit-transition: all 150ms ease;
+  -moz-transition: all 150ms ease;
+  transition: all 150ms ease;
+  border-color: rgb(166, 172, 180);
+  background: transparent;
+}
+
+.slick-dots .slick-active button {
+  border-color: #0B60A9;
+  border-width: 3px;
+}
+
+.slick-dots li {
+  position: relative;
+  display: inline-block;
+  height: 20px;
+  cursor: pointer;
+  max-width: 100px;
+  list-style: none;
+  padding: 0 2px;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 33.33333%!important;
+}
+
+.slick-dots {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  margin: 0;
+  text-align: center;
+  padding: 15px 20px 30px;
+  height: 50px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: -webkit-linear-gradient(top,rgba(0,0,0,0) 0%,rgba(0,0,0,.65) 100%);
+  background: -moz-linear-gradient(top,rgba(0,0,0,0) 0%,rgba(0,0,0,.65) 100%);
+  background: linear-gradient(to bottom,rgba(0,0,0,0) 0%,rgba(0,0,0,.65) 100%);
+  -webkit-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000',endColorstr='#a6000000',GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000',endColorstr='#a6000000',GradientType=0);
+}
+
+.slick-dotted.slick-slider {
+  margin-bottom: 0 !important;
+}

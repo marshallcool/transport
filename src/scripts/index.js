@@ -1,0 +1,9 @@
+import '../styles/index.scss';
+import '../styles/normalize.scss';
+import '../styles/slick.scss';
+import '../styles/header.scss';
+import '../styles/variable.scss';
+import '../styles/company.scss';
+import '../styles/our-service.scss';
+import '../styles/our-clients.scss';
+import '../styles/footer.scss';
